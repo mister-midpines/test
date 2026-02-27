@@ -1,5 +1,5 @@
 {
-  "name": "the-night-of-the-iguana-netlify-trigger",
+  "name": "test-netlify-trigger",
   "version": "1.0.0",
   "description": "Netlify function to trigger GitHub Action",
   "main": "index.js",

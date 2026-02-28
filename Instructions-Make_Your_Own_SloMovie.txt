@@ -76,16 +76,16 @@ wait
 for j in *.png
     do
 	echo "$j"
-	magick convert -brightness-contrast 15x35 "$j" "$j" # Adjust the numbers to change the brighness and contrast
+	magick convert -brightness-contrast 15x35 "$j" "$j"
 done
 wait
 
 cp *.png contrast_frames
 wait
 
-# Make an image list
+# Make an image list, adding frames/ to the start of each line
 ls -1 *.png > image_list.txt
-sed -i -e "s|^|frames/|" image_list.txt  # Add 'frames/' to the start of each line
+sed -i -e "s|^|frames/|" image_list.txt
 mv image_list.txt for_github
 
 mkdir for_github/frames

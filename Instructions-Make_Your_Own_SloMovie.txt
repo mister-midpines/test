@@ -1,5 +1,5 @@
 ##################################################################
-# Instructions
+# Instructions 
 
 # I have a little E-Paper display called a TRMNL that's good at showing 1- or 2-bit
 # grayscale images. I set mine up so it shows movies super sloooowly. What it does is
